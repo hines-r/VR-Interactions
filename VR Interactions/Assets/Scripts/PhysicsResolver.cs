@@ -42,7 +42,7 @@ public class PhysicsResolver : MonoBehaviour
         }
 
         // Forward raycast
-        Ray rayForward = new Ray(transform.position + coll.bounds.extents.x * Vector3.forward, transform.forward);
+        Ray rayForward = new Ray(transform.position + coll.bounds.extents.y * Vector3.down, transform.forward);
 
         if (Physics.Raycast(rayForward, out hitInfo, rayForwardLength, mask))
         {
