@@ -7,6 +7,7 @@ public class PhysicsResolver : MonoBehaviour
 {
     public bool isGrounded;
     public bool isStuckOnSurface;
+    public bool isInsideObject;
 
     public float rayDownLength = 0.5f;
     public float rayForwardLength = 0.5f;
@@ -31,7 +32,7 @@ public class PhysicsResolver : MonoBehaviour
 
         if (Physics.Raycast(rayDown, out hitInfo, rayDownLength, mask))
         {
-            Debug.Log(hitInfo.collider);
+            //Debug.Log(hitInfo.collider);
             Debug.DrawLine(rayDown.origin, hitInfo.point, Color.red);
             isGrounded = true;
         }
@@ -46,7 +47,7 @@ public class PhysicsResolver : MonoBehaviour
 
         if (Physics.Raycast(rayForward, out hitInfo, rayForwardLength, mask))
         {
-            Debug.Log(hitInfo.collider);
+            //Debug.Log(hitInfo.collider);
             Debug.DrawLine(rayForward.origin, hitInfo.point, Color.red);
             isStuckOnSurface = true;
         }
@@ -54,6 +55,22 @@ public class PhysicsResolver : MonoBehaviour
         {
             Debug.DrawLine(rayForward.origin, rayForward.origin + rayForward.direction * rayForwardLength, Color.green);
             isStuckOnSurface = false;
+        }
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+        if (!other.CompareTag("Player"))
+        {
+            isInsideObject = true;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (!other.CompareTag("Player"))
+        {
+            isInsideObject = false;
         }
     }
 }

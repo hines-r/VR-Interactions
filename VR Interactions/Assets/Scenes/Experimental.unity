@@ -2318,7 +2318,7 @@ GameObject:
   - component: {fileID: 1017721780}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4037,6 +4037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGrounded: 0
   isStuckOnSurface: 0
+  isInsideObject: 0
   rayDownLength: 0.5
   rayForwardLength: 0.5
   inset: 0.1
@@ -4196,6 +4197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGrounded: 0
   isStuckOnSurface: 0
+  isInsideObject: 0
   rayDownLength: 0.25
   rayForwardLength: 0.5
   inset: 0.1
@@ -5137,7 +5139,7 @@ GameObject:
   - component: {fileID: 1957142617}
   m_Layer: 26
   m_Name: HeadCollider
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -17,11 +17,10 @@ public class ColliderToBounds : MonoBehaviour
         newbound = bound.GetComponent<Collider>().bounds;
         colli.size = new Vector3((newbound.size.x / self.localScale.x), (newbound.size.y / self.localScale.y), (newbound.size.z / self.localScale.z));
 
-        if (!resolver.isStuckOnSurface)
+        if (!resolver.isStuckOnSurface && !resolver.isInsideObject)
         {
             Vector3 newPos = new Vector3(bound.transform.position.x, transform.position.y, bound.transform.position.z);
             colli.center = bound.transform.localPosition;
         }
     }
-
 }
