@@ -2366,9 +2366,9 @@ MonoBehaviour:
   touchpadButtonAction: {fileID: 11400000, guid: 470830a5541daf74aac34da248d9cadf,
     type: 2}
   head: {fileID: 135705955}
-  moveSpeed: 2.5
-  turnSpeed: 180
-  jumpForce: 0
+  moveSpeed: 3
+  turnSpeed: 100
+  jumpForce: 5
   isGrounded: 0
   resolver: {fileID: 1672241849}
 --- !u!114 &1017721782
@@ -4037,7 +4037,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGrounded: 0
   isStuckOnSurface: 0
-  rayLength: 0.5
+  rayDownLength: 0.5
+  rayForwardLength: 0.5
   inset: 0.1
   mask:
     serializedVersion: 2
@@ -4195,7 +4196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGrounded: 0
   isStuckOnSurface: 0
-  rayLength: 1
+  rayDownLength: 0.25
+  rayForwardLength: 0.5
   inset: 0.1
   mask:
     serializedVersion: 2
