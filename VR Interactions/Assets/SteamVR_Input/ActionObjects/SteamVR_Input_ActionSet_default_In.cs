@@ -36,5 +36,7 @@ namespace Valve.VR
         public Valve.VR.SteamVR_Action_Vector2 TouchpadTouch;
         
         public Valve.VR.SteamVR_Action_Boolean TouchpadHeldDown;
+        
+        public Valve.VR.SteamVR_Action_Boolean Menu;
     }
 }

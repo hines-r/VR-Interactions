@@ -24,6 +24,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0cefb5aac78f2224cb4f2a4042aa1d6e, type: 2}
   - {fileID: 11400000, guid: 01fb44ff700515749865e7b1861df6e6, type: 2}
   - {fileID: 11400000, guid: 2f6d06b79e9a0764e9dcea8111cd7d87, type: 2}
+  - {fileID: 11400000, guid: 874aea23e93eaea458e244d55a9f7b88, type: 2}
   InteractUI: {fileID: 11400000, guid: a057f4cd15bb6ad44a74a0e026f6fb5d, type: 2}
   Teleport: {fileID: 11400000, guid: 470830a5541daf74aac34da248d9cadf, type: 2}
   GrabPinch: {fileID: 11400000, guid: 0284248a2ecfb7c4d9b2e220caf4c531, type: 2}
@@ -34,3 +35,4 @@ MonoBehaviour:
   Squeeze: {fileID: 11400000, guid: 0cefb5aac78f2224cb4f2a4042aa1d6e, type: 2}
   TouchpadTouch: {fileID: 11400000, guid: 01fb44ff700515749865e7b1861df6e6, type: 2}
   TouchpadHeldDown: {fileID: 11400000, guid: 2f6d06b79e9a0764e9dcea8111cd7d87, type: 2}
+  Menu: {fileID: 11400000, guid: 874aea23e93eaea458e244d55a9f7b88, type: 2}
