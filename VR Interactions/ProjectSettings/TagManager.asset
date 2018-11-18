@@ -8,6 +8,7 @@ TagManager:
   - FxTemporaire
   - Pickup
   - Floor
+  - Climbable
   layers:
   - Default
   - TransparentFX
