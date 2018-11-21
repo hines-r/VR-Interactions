@@ -118,6 +118,8 @@ MonoBehaviour:
   explosionEffect: {fileID: 1823657707569814, guid: 62d5b3ebc09298d4ebbc0d8fb39ba507,
     type: 2}
   minMagnitudeToExplode: 1
+  explosionRadius: 2
+  explosionForce: 1000
 --- !u!114 &114390897078467008
 MonoBehaviour:
   m_ObjectHideFlags: 1

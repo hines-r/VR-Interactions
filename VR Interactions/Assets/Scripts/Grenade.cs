@@ -9,6 +9,8 @@ public class Grenade : MonoBehaviour
     public GameObject explosionEffect;
 
     public float minMagnitudeToExplode = 1f;
+    public float explosionRadius = 2f;
+    public float explosionForce = 1000f;
 
     private Interactable interactable;
 
@@ -23,10 +25,33 @@ public class Grenade : MonoBehaviour
 
         if (collision.impulse.magnitude > minMagnitudeToExplode)
         {
-            GameObject explosion = Instantiate(explosionEffect, transform.position, transform.rotation);
-            Destroy(explosion, 5f);
-
-            Destroy(gameObject); // Destroy grenade itself
+            Explode();
         }
+    }
+
+    void Explode()
+    {
+        GameObject explosion = Instantiate(explosionEffect, transform.position, transform.rotation);
+        Destroy(explosion, 5f);
+
+        Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
+
+        foreach (Collider nearbyObject in colliders)
+        {
+            Rigidbody rb = nearbyObject.GetComponent<Rigidbody>();
+
+            if (rb != null)
+            {
+                rb.AddExplosionForce(explosionForce, transform.position, explosionRadius);
+            }
+        }
+
+        Destroy(gameObject); // Destroy grenade itself
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, explosionRadius);
     }
 }
