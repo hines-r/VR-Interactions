@@ -5,6 +5,8 @@ using UnityEngine;
 public class ItemSpawner : MonoBehaviour
 {
     public GameObject itemToSpawn;
+    public float cooldownTime = 1f;
+    private float nextTimeToSpawn;
 
     private GameObject currentItem;
 
@@ -12,7 +14,15 @@ public class ItemSpawner : MonoBehaviour
     {
         if (currentItem == null)
         {
-            SpawnItem();
+            if (nextTimeToSpawn <= 0f)
+            {
+                SpawnItem();
+                nextTimeToSpawn = cooldownTime;
+            }
+            else
+            {
+                nextTimeToSpawn -= Time.deltaTime;
+            }
         }
     }
 
