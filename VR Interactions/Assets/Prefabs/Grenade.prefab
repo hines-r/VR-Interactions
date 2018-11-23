@@ -136,7 +136,7 @@ MonoBehaviour:
   catchingSpeedThreshold: -1
   releaseVelocityStyle: 1
   releaseVelocityTimeOffset: -0.011
-  scaleReleaseVelocity: 1.1
+  scaleReleaseVelocity: 2.2
   restoreOriginalParent: 0
   attachEaseIn: 0
   snapAttachEaseInCurve:
