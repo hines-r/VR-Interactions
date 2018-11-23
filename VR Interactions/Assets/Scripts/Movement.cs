@@ -23,6 +23,8 @@ public class Movement : MonoBehaviour
     private bool touchpadRightDown;
 
     public bool isGrounded;
+    public bool comfortTurning;
+    public float comfortTurnDegrees = 30f;
 
     private Player player;
     private Rigidbody rb;
@@ -86,13 +88,27 @@ public class Movement : MonoBehaviour
             }
 
             // Rotation
-            if (touchpadRight.x > 0.3f)
+            if (comfortTurning && touchpadRightDown)
             {
-                transform.RotateAround(head.position, Vector3.up, turnSpeed * Time.deltaTime);
+                if (touchpadRight.x > 0.3f)
+                {
+                    transform.RotateAround(head.position, Vector3.up, comfortTurnDegrees);
+                }
+                else if (touchpadRight.x < -0.3f)
+                {
+                    transform.RotateAround(head.position, Vector3.up, -comfortTurnDegrees);
+                }
             }
-            else if (touchpadRight.x < -0.3f)
+            else if (!comfortTurning)
             {
-                transform.RotateAround(head.position, Vector3.up, -turnSpeed * Time.deltaTime);
+                if (touchpadRight.x > 0.3f)
+                {
+                    transform.RotateAround(head.position, Vector3.up, turnSpeed * Time.deltaTime);
+                }
+                else if (touchpadRight.x < -0.3f)
+                {
+                    transform.RotateAround(head.position, Vector3.up, -turnSpeed * Time.deltaTime);
+                }
             }
         }
     }

@@ -9705,6 +9705,8 @@ MonoBehaviour:
   turnSpeed: 100
   jumpForce: 5
   isGrounded: 0
+  comfortTurning: 1
+  comfortTurnDegrees: 30
   resolver: {fileID: 1666993390}
 --- !u!114 &1718785806
 MonoBehaviour:
