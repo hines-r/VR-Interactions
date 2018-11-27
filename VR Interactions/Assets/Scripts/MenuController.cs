@@ -8,6 +8,9 @@ public class MenuController : MonoBehaviour
     public GameObject leftHandMenu;
     public GameObject rightHandMenu;
 
+    public GameObject leftLaser;
+    public GameObject rightLaser;
+
     [SteamVR_DefaultAction("Menu")]
     public SteamVR_Action_Boolean menuAction;
 
@@ -23,20 +26,24 @@ public class MenuController : MonoBehaviour
         if (menuLeftDown && !leftHandMenu.activeSelf)
         {
             leftHandMenu.SetActive(true);
+            leftLaser.SetActive(true);
         }
         else if (menuLeftDown && leftHandMenu.activeSelf)
         {
             leftHandMenu.SetActive(false);
+            leftLaser.SetActive(false);
         }
 
         // RIGHT
         if (menuRightDown && !rightHandMenu.activeSelf)
         {
             rightHandMenu.SetActive(true);
+            rightLaser.SetActive(true);
         }
         else if (menuRightDown && rightHandMenu.activeSelf)
         {
             rightHandMenu.SetActive(false);
+            rightLaser.SetActive(false);
         }
     }
 }
