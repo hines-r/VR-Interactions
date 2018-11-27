@@ -9,6 +9,8 @@ public class PhysicsResolver : MonoBehaviour
     public bool isStuckOnSurface;
     public bool isInsideObject;
 
+    public Transform rotationPoint;
+
     public float rayDownLength = 0.5f;
     public float rayForwardLength = 0.5f;
     public float inset = 0.1f;
@@ -56,6 +58,17 @@ public class PhysicsResolver : MonoBehaviour
             Debug.DrawLine(rayForward.origin, rayForward.origin + rayForward.direction * rayForwardLength, Color.green);
             isStuckOnSurface = false;
         }
+
+        if (rotationPoint != null)
+        {
+            Vector3 eulerRotation = new Vector3(0f, rotationPoint.transform.eulerAngles.y, 0f);
+            transform.rotation = Quaternion.Euler(eulerRotation);
+        }
+    }
+
+    void FixedUpdate()
+    {
+
     }
 
     void OnTriggerStay(Collider other)
