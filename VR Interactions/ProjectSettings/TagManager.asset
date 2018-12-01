@@ -9,6 +9,7 @@ TagManager:
   - Pickup
   - Floor
   - Climbable
+  - Hand
   layers:
   - Default
   - TransparentFX
