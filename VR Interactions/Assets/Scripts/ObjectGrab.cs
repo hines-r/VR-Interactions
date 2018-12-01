@@ -80,13 +80,16 @@ public class ObjectGrab : MonoBehaviour
         }
         else
         {
-            fixedJoint.connectedBody = null;
+            if (fixedJoint != null)
+            {
+                fixedJoint.connectedBody = null;
+            }
         }
     }
 
     void DropObj()
     {
-        if (fixedJoint.connectedBody != null)
+        if (fixedJoint != null && fixedJoint.connectedBody != null)
         {
             fixedJoint.connectedBody = null;
         }
