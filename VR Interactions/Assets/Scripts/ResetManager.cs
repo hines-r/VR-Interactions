@@ -10,13 +10,15 @@ public class ResetManager : MonoBehaviour
     [SteamVR_DefaultAction("Squeeze")]
     public SteamVR_Action_Single squeezeAction;
 
-    private Hand hoverHand;
+    private Hand hand;
 
     void Update()
     {
-        float triggerValue = squeezeAction.GetAxis(SteamVR_Input_Sources.Any);
+        if (hand == null) return;
 
-        if (triggerValue >= 1f && hoverHand != null)
+        float triggerValue = squeezeAction.GetAxis(hand.handType);
+
+        if (triggerValue >= 1f)
         {
             ResetScene();
         }
@@ -31,7 +33,7 @@ public class ResetManager : MonoBehaviour
     {
         if (other.CompareTag("Hand"))
         {
-            hoverHand = other.gameObject.GetComponent<Hand>();
+            hand = other.gameObject.GetComponent<Hand>();
         }
     }
 
@@ -39,9 +41,9 @@ public class ResetManager : MonoBehaviour
     {
         if (other.CompareTag("Hand"))
         {
-            if (hoverHand != null)
+            if (hand != null)
             {
-                hoverHand = null;
+                hand = null;
             }
         }
     }
