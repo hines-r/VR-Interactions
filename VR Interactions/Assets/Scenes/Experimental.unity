@@ -423,7 +423,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 95739982}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1937,6 +1937,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
   m_IsPrefabAsset: 0
@@ -2372,6 +2376,10 @@ Prefab:
     - target: {fileID: 4518643123322048, guid: a7aeff13d85db1648892e245340d0f0f, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226948832020612, guid: a7aeff13d85db1648892e245340d0f0f, type: 2}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7aeff13d85db1648892e245340d0f0f, type: 2}
@@ -3382,7 +3390,7 @@ GameObject:
   - component: {fileID: 536816912}
   - component: {fileID: 536816915}
   - component: {fileID: 536816914}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4634,11 +4642,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 663875617}
@@ -5662,6 +5670,10 @@ Prefab:
     - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
       propertyPath: m_Name
       value: PickupTest (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
@@ -7937,6 +7949,10 @@ Prefab:
       propertyPath: m_Name
       value: PickupTest (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
   m_IsPrefabAsset: 0
@@ -8145,6 +8161,10 @@ Prefab:
     - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
       propertyPath: m_Name
       value: PickupTest (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
@@ -9024,7 +9044,7 @@ GameObject:
   - component: {fileID: 1319968923}
   - component: {fileID: 1319968925}
   - component: {fileID: 1319968924}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Emitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10401,7 +10421,7 @@ GameObject:
   - component: {fileID: 1488505808}
   - component: {fileID: 1488505807}
   - component: {fileID: 1488505806}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10611,11 +10631,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1488827421}
@@ -10930,6 +10950,10 @@ Prefab:
       propertyPath: m_Name
       value: PickupTest (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
   m_IsPrefabAsset: 0
@@ -11065,11 +11089,11 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1555609646}
@@ -12506,6 +12530,10 @@ Prefab:
       propertyPath: m_Name
       value: PickupTest (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
   m_IsPrefabAsset: 0
@@ -12854,7 +12882,7 @@ GameObject:
   - component: {fileID: 1846231322}
   - component: {fileID: 1846231321}
   - component: {fileID: 1846231320}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: LaserCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13133,6 +13161,10 @@ Prefab:
       propertyPath: m_Name
       value: PickupTest (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
   m_IsPrefabAsset: 0
@@ -13238,7 +13270,7 @@ GameObject:
   - component: {fileID: 1880473372}
   - component: {fileID: 1880473373}
   - component: {fileID: 1880473375}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Gun
   m_TagString: Pickup
   m_Icon: {fileID: 0}
@@ -14770,7 +14802,7 @@ GameObject:
   - component: {fileID: 2107387486}
   - component: {fileID: 2107387485}
   - component: {fileID: 2107387484}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15174,6 +15206,10 @@ Prefab:
     - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
       propertyPath: m_Name
       value: PickupTest (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698300652672426, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce04a496226d11409a17b3ae74bc60d, type: 2}
