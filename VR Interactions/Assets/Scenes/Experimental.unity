@@ -14215,6 +14215,47 @@ MonoBehaviour:
   handFollowTransformRotation: 1
   highlightOnHover: 1
   hideHighlight: []
+--- !u!1 &1957944827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1957944828}
+  - component: {fileID: 1957944829}
+  m_Layer: 0
+  m_Name: InvisRamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1957944828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957944827}
+  m_LocalRotation: {x: 0.2298271, y: -0, z: -0, w: 0.9732315}
+  m_LocalPosition: {x: 10, y: 0.395, z: -2.87}
+  m_LocalScale: {x: 1, y: 0.049999997, z: 2.65783}
+  m_Children: []
+  m_Father: {fileID: 1972201928}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 26.574001, y: 0, z: 0}
+--- !u!65 &1957944829
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957944827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1972201927
 GameObject:
   m_ObjectHideFlags: 0
@@ -14244,6 +14285,7 @@ Transform:
   - {fileID: 1338522450}
   - {fileID: 2030048947}
   - {fileID: 531959531}
+  - {fileID: 1957944828}
   m_Father: {fileID: 1666884768}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
