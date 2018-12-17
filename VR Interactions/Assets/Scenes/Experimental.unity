@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 149743915}
   - component: {fileID: 149743914}
   - component: {fileID: 149743913}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 169634563}
   - component: {fileID: 169634562}
   - component: {fileID: 169634561}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 183175675}
   - component: {fileID: 183175674}
   - component: {fileID: 183175679}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: LeftHand
   m_TagString: Hand
   m_Icon: {fileID: 0}
@@ -1248,7 +1248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 258012863}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Laser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1280,7 +1280,7 @@ GameObject:
   - component: {fileID: 266154130}
   - component: {fileID: 266154132}
   - component: {fileID: 266154131}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Emitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1806,7 +1806,7 @@ GameObject:
   - component: {fileID: 353801045}
   - component: {fileID: 353801044}
   - component: {fileID: 353801043}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: LeftCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3183,7 +3183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 524063205}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: HoverPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3857,7 +3857,7 @@ GameObject:
   - component: {fileID: 586977938}
   - component: {fileID: 586977940}
   - component: {fileID: 586977939}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4090,7 +4090,7 @@ GameObject:
   - component: {fileID: 611225459}
   - component: {fileID: 611225461}
   - component: {fileID: 611225460}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Emitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4225,7 +4225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 613104152}
   - component: {fileID: 613104153}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: ControllerHoverHighlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4270,7 +4270,7 @@ GameObject:
   - component: {fileID: 648436952}
   - component: {fileID: 648436954}
   - component: {fileID: 648436953}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4724,7 +4724,7 @@ GameObject:
   - component: {fileID: 669016054}
   - component: {fileID: 669016056}
   - component: {fileID: 669016055}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6271,7 +6271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 957157700}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: ObjectAttachmentPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6300,7 +6300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 963988158}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Laser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6398,7 +6398,7 @@ GameObject:
   - component: {fileID: 984170161}
   - component: {fileID: 984170160}
   - component: {fileID: 984170159}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: RightCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6859,7 +6859,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1041305965}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: ObjectAttachmentPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8534,7 +8534,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1243749530}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: HoverPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8566,7 +8566,7 @@ GameObject:
   - component: {fileID: 1245321046}
   - component: {fileID: 1245321048}
   - component: {fileID: 1245321047}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9711,6 +9711,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1226948832020612, guid: a7aeff13d85db1648892e245340d0f0f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7aeff13d85db1648892e245340d0f0f, type: 2}
   m_IsPrefabAsset: 0
@@ -9724,7 +9728,7 @@ GameObject:
   - component: {fileID: 1418677602}
   - component: {fileID: 1418677604}
   - component: {fileID: 1418677603}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: TextMeshPro Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10234,7 +10238,7 @@ GameObject:
   - component: {fileID: 1481240589}
   - component: {fileID: 1481240588}
   - component: {fileID: 1481240591}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: RightHand
   m_TagString: Hand
   m_Icon: {fileID: 0}
@@ -11336,7 +11340,7 @@ GameObject:
   - component: {fileID: 1632514392}
   - component: {fileID: 1632514394}
   - component: {fileID: 1632514393}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12029,6 +12033,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1226948832020612, guid: a7aeff13d85db1648892e245340d0f0f, type: 2}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7aeff13d85db1648892e245340d0f0f, type: 2}
   m_IsPrefabAsset: 0
@@ -12374,7 +12382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1751078090}
   - component: {fileID: 1751078091}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: ControllerButtonHints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13178,7 +13186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1871661475}
   - component: {fileID: 1871661476}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: ControllerButtonHints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13429,7 +13437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1896008868}
   - component: {fileID: 1896008869}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: ControllerHoverHighlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
